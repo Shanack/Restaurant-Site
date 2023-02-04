@@ -1,0 +1,88 @@
+
+*{
+font-family: "Montserrat";
+
+
+}
+
+
+
+body{
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+
+#mainArea{
+
+    width: 100%;
+    height: 6000px;
+    background-image: url(../assets/hero1.jpg);
+    /* background-position-y: 50%; */
+    /* background-blend-mode: multiply; */
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 90vh;
+
+    
+}
+
+.heroText{
+
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90%;
+    position: relative;
+    top: 5%;
+    left: 15%;
+    color: blanchedalmond;
+    
+
+}
+
+.heroRow{
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.row2{
+
+    width: 100vw;
+    margin-bottom: 500px;
+    height:200px;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+.heading{
+
+    
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90%;
+    position: relative;
+    text-align: center;
+    margin-top:20px ;
+    color: blanchedalmond;
+    
+
+}
+
+    

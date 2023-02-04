@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Montserrat";
+
+    }
+    
+    /* MENU */
+    
+body{
+    background-image: url(../assets/menu-bg.jpg);
+}
+    .menu-new{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.568);
+        padding-bottom: 50px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .menu-heading{
+        font-size: 12rem;
+        text-align: center;
+        text-shadow: 3rem 3rem 1rem rgba(9,5,4,7);
+        text-transform: uppercase;
+        color: white;
+        font-weight: 800;
+    }
+    
+    .menu-grid{
+
+        padding-left: 20px;
+        padding-Right: 20px;
+        display: grid;
+        grid-template-rows:repeat(2, 1fr) ;
+        grid-template-columns: repeat(4, 1fr);
+        justify-self: center;
+        grid-gap: 1rem;
+    }
+    
+    .heading-secondary{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+    
+    .menu-img{
+        height: 100px;
+        width: 100%;
+        background-size: contain;
+        background-position: left;
+        margin-bottom: 2px;
+      /* //  background-image: url("img/pizza.jpg"); */
+    }
+    
+    .menu-container{
+        width: 80vw;
+        height: 80vh;
+        background-color: white;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 2rem rgba(0,0,0,.2);
+        transition: all .4s ease;
+        font-size: 7rem;
+       
+
+        
+    }
+    .menu-hold{
+        width: 500px;
+    }
+    
+    .menu-container:hover{
+        box-shadow: 0 0 5rem rgba(0,0,0,.4);
+        transform: scale(1.07);
+    }
+    
+    .menu-p{
+        font-size: 1rem;
+        /* padding: 1rem; */
+        text-align: center;
+        font-weight: 800;
+        text-shadow: 2.5px 2.5px 8px #160505;       
+    }
+    
+    .menu-title{
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 1px;
+        color: white;
+        font-weight: 800;
+        text-shadow: 2.5px 2.5px 8px #160505; }
+    
+    .price{
+        font-size: 2rem;
+        margin-top: 5px;
+        position: relative;
+        top:80px;
+        text-align: center;
+        color: #da6b1d;
+        font-weight: 800;
+        text-shadow: 2.5px 2.5px 8px #000000;
+    
+    }
+    .btn , .btn-primary{
+
+        /* position: relative;
+        top: -1;
+        left: 35%; */
+        text-align: center;
+        background-color: #da6b1d;     
+        outline: none;
+        position: relative;
+        left: 44%;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    .btn:hover{
+
+        
+        background-color: #da6b1d;     
+        transform: scale(1.07);
+        color: white;
+    
+    }
+    .btn:focus{
+
+        
+        background-color: #da6b1d;
+        border: none;
+        outline: none;
+     
+    }
+
+    /* .test{
+        height: 40px;
+        background-color: black;
+    } */

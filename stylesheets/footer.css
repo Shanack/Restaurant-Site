@@ -1,0 +1,36 @@
+
+
+.footer {
+    height: 40vh;
+    border-top: 0.2px solid rgba(255, 255, 255, 0.26);
+    color: blanchedalmond;
+}
+
+.footerMid{
+    height: inherit;
+    text-align: center;
+    /* border: 3px solid red; */
+    padding-top: 5%;
+    min-height: 100%;
+    padding-bottom: 3%;
+    
+}
+
+.social
+{
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.copyright{
+    width: 100%;
+    background-color: blanchedalmond;
+    position: relative;
+    top: 0;
+    padding: 1%;
+    padding-bottom: 1%;
+    /* padding-bottom: 2px; */
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+}

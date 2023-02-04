@@ -1,0 +1,133 @@
+*{
+    font-family: "Montserrat";
+
+}
+/* body
+{
+    background-color: black;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(/assets/menu-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .login-   box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+  }
+  .login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #da6b1d;
+    margin-bottom: 50px;
+    padding: 13px 0;
+  }
+  .textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #da6b1d;
+  }
+  .textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .btn{
+  width: 240px;
+  height:40px;
+  background: #da6b1d;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  text-align: center ;
+  }
+  .btn:hover{
+  background: #fff;
+  color: #ff7200;
+  }
+  .btn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  }
+  .form .link{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 550px;
+  text-align: center;
+  color: #fff;
+  }
+  .form .link a{
+  text-decoration: none;
+  color: #da6b1d;
+  }
+
+  #container1{
+   
+    margin-top: 7vh;
+   height: 80vh;
+   width: 70vw;
+   /* background-color: rgba(197, 181, 181, 0.849); */
+   background-color: rgba(255, 255, 255, 0.932);
+   margin-bottom: 20px;
+   padding: 2rem;
+}
+
+.copyright{
+    display: none;
+}
+.social{
+    width: 100%;
+    position: relative;
+    right:11%;
+}
+.footer{
+    background-color: black;
+    height: auto;
+
+}
+
+.text a{
+
+    display: inline;
+    color:black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 36%;
+    
+}
+.text
+{
+    width: 100%;
+    margin: 3px;
+position: relative;
+
+right:10%;
+}
