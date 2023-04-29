@@ -1,46 +1,23 @@
+
 # Restaurant-Site
  A simple website using HTML | CSS | Bootstrap  | IICT Semester Project
 
-## Final Project Report
+## Contributions
 
 
-
-Sufian Sajjad 
-
-Muhammad Arfat 
+- [@arfatkh](https://www.github.com/arfatkh)
+- [@SufianSajjad](https://github.com/SufianSajjad)
 
 
+## Table of Contents
 
-
-Table of Contents
-
-[HOME PAGE](#home)
-
-[MENU PAGE](#menu)
-
-[DEALS PAGE](#deals)
-
-[Login Page](#login)
-
-[Cart](#cart)
-
-[Navigation Bar](#navigation)
-
-[Footer](#footer)
-
-
-
-
-
-
-
-
-
-
-
----
-
-
+>  - [Home](#home) 
+>  - [Menu PAGE](#menu) 
+>  - [Deals ](#deals) 
+>  - [Login Page](#login) 
+>  - [Cart](#cart) 
+>  - [Navigation Bar](#navigation)
+>  - [Footer](#footer)
 
 Basic Structure
 ============================================
@@ -52,7 +29,7 @@ Basic Structure
 
 
 
-
+<br/>
 
 <a name="home"></a> Home Page
 ======================================
@@ -69,6 +46,7 @@ The Home Page was created by diving the page into Bootstrap container and taking
 
 
 
+<br/>
 
 <a name="menu"></a>Menu Page
 ======================================
@@ -79,6 +57,7 @@ The Home Page was created by diving the page into Bootstrap container and taking
  The menu page is based on bootstrap’s cards, which are nicely edited. The entire page is given a background image. The real challenge was to get the first card perfect after that we reused the same card code.
 
 
+<br/>
 
 <a name="deals"></a> Deals Page
 =======================================
@@ -98,6 +77,7 @@ Like the Menu page, the deals page is also based upon bootstrap cards which are 
 
 
 
+<br/>
 
 
 
@@ -107,6 +87,7 @@ Like the Menu page, the deals page is also based upon bootstrap cards which are 
 
  <img src="https://github.com/arfatkh/Restaurant-Site/blob/main/imgs/image8.png" width="800" height="auto">
   <img src="https://github.com/arfatkh/Restaurant-Site/blob/main/imgs/image10.png" width="800" height="auto">
+<br/>
 
 <a name="cart"></a>Cart
 =================================
@@ -114,6 +95,7 @@ Like the Menu page, the deals page is also based upon bootstrap cards which are 
 
  <img src="https://github.com/arfatkh/Restaurant-Site/blob/main/imgs/image9.png" width="800" height="auto">
 
+<br/>
 
 
 <a name="navigation"></a>Navigation Bar
@@ -125,6 +107,7 @@ Like the Menu page, the deals page is also based upon bootstrap cards which are 
 A single Navigation bar is used in the entire website with its own css file , this means editing a single file will edit the entire site. For Icons , fontawesomes were used.
 
 
+<br/>
 
 <a name="footer"></a>Footer
 ===================================
